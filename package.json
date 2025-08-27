@@ -25,8 +25,13 @@
     "author": "",
     "license": "ISC",
     "dependencies": {
-        "express": "^4.16.2",
+        "express": "^4.21.2",
+        "fs": "^0.0.1-security",
+        "http": "^0.0.1-security",
         "http-errors": "^1.7.1",
+        "http-mitm-proxy": "^1.1.0",
+        "http-proxy-middleware": "^3.0.5",
+        "https": "^1.0.0",
         "morgan": "^1.9.1",
         "pug": "^3.0.1"
     },
